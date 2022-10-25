@@ -2,13 +2,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 100px;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
 }
 
 #books-list {
   display: flex;
   flex-direction: column;
   align-self: center;
-  width: 70%;
+  width: 60%;
 }
 
 .book-card {
@@ -20,12 +28,6 @@ body {
 
 .even-index {
   background-color: #d3d3d3;
-}
-
-hr {
-  width: 30%;
-  border: solid #000 1px;
-  margin: 40px 20px 0;
 }
 
 #add-book-form {
@@ -40,5 +42,51 @@ hr {
 }
 
 .add-button {
+  align-self: flex-end;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0;
+  width: 60%;
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+
+#nav-block {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav-active {
+  color: #00f;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#date-time {
   align-self: flex-end;
 }

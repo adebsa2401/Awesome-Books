@@ -14,4 +14,6 @@ document.querySelector('#add-book-form').addEventListener('submit', (event) => {
 
   titleInput.value = '';
   authorInput.value = '';
+
+  document.querySelector('a[data-for="list-content"]').dispatchEvent(new Event('click'));
 });
