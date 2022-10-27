@@ -47,13 +47,13 @@ N/A
 
 ## Authors
 
-👤 **Author1**
+👤 **Usama Malik**
 
 - GitHub: [@usamamaliq](https://github.com/usamamaliq)
 - Twitter: [@usamamaliq](https://twitter.com/usamamaliq)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/usamamaliq)
 
-👤 **Author1**
+👤 **Ben Salès**
 
 - GitHub: [@adebsa2401](https://github.com/usamamaliq)
 - Twitter: [@adebsa2401](https://twitter.com/usamamaliq)
